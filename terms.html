@@ -9,7 +9,8 @@
   @media (prefers-color-scheme: dark){ :root{ --bg:#0e0e12; --fg:#f2f2f7; --sub:#9a9aa2; --line:#26262c; --accent:#8b97ff; --card:#16161c; } }
   *{ box-sizing:border-box; }
   body{ margin:0; font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;
-        background:var(--bg); color:var(--fg); line-height:1.75; -webkit-text-size-adjust:100%; }
+        background:var(--bg) url("bg-light.png") top center / cover fixed; color:var(--fg); line-height:1.75; -webkit-text-size-adjust:100%; }
+  @media (prefers-color-scheme: dark){ body{ background-image:url("bg-dark.png"); } }
   .wrap{ max-width:720px; margin:0 auto; padding:40px 20px 80px; }
   h1{ font-size:26px; margin:0 0 4px; }
   h2{ font-size:19px; margin:34px 0 10px; padding-top:10px; border-top:1px solid var(--line); }
