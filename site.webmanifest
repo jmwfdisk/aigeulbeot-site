@@ -1,0 +1,13 @@
+{
+  "name": "AI 글벗",
+  "short_name": "AI 글벗",
+  "description": "녹음 요약 · 문서 AI 대화 — iPhone / iPad",
+  "icons": [
+    { "src": "icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "icon-512.png", "type": "image/png", "sizes": "512x512" },
+    { "src": "apple-touch-icon.png", "type": "image/png", "sizes": "180x180" }
+  ],
+  "theme_color": "#5b6cff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
